@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: "League Spartan";
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+}
+a{
+  text-decoration: none;
+}
+.bg-cover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+}
+.nav-link{
+    color: #313131;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.24px;
+}
+#logi{
+    color: #313131;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.24px;
+}
+#reg{
+    border-radius: 6px;
+    background: #175B8C;
+}
+.btn-main{
+    border-radius: 8px;
+    background: #175B8C;
+}
+.btn-main:hover{
+    border-radius: 8px;
+    background: #175B8C;
+}
+.business{
+    color: #3F3F3F;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0.56px;
+}
+.lorem{
+    color: #333;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+}
+#bg-image{
+    background-image: url(img/Group\ 637.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.bill-sft{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0.42px;
+}
+.bs-box{
+    color: #323232;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.24px;
+}
+.bsp-box{
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    letter-spacing: 0.18px;
+}
+#box-1:hover {
+    border-radius: 8px;
+    background: #F8F8F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#box-1:hover .bs-box{
+    color: #175B8C;
+}
+.lor-p{
+    color: #606060;
+    font-family: League Spartan;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+    letter-spacing: 0.14px;
+}
+#bg-price{
+    background-image: url(img/pricing-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.strick{
+    color: #7A7A7A;
+    font-family: League Spartan;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+#premi{
+    border-radius: 16px;
+    color: #A06E0D;
+    border: 1.5px solid #A06E0D;
+    background: #FFEBDA;
+    font-size: 23px;
+}
+#premi:hover{
+    color: #FFF;
+    background-color: #A06E0D;
+}
+#basi{
+    border-radius: 16px;
+    border: 1.5px solid #158A83;
+    background: #F1FFFD;
+    font-size: 23px;
+    color: #158A83;
+}
+#basi:hover{
+    color: #FFF;
+    background-color: #158A83;
+}
+.feature{
+    color: #000;
+    font-family: League Spartan;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+/* flip-card */
+.flip-card {
+    background-color: transparent;
+    width: 105%;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 108%;
+    height: 100%;
+    /* text-align: center; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  }
+  #flip-1-bg{
+    background-image: url(img/flip-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  #flip-2-bg{
+    background-image: url(img/flip-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  #flip-3-bg{
+    background-image: url(img/flip-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  #flip-4-bg{
+    background-image: url(img/flip-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  #flip-5-bg{
+    background-image: url(img/flip-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  #flip-6-bg{
+    background-image: url(img/flip-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    color: white;
+  }
+  
+  .flip-card-back {
+    border-radius: 8px;
+    background-color: #175B8C;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  #flip-car{
+    border: none;
+    background: none;
+    box-shadow: none;
+    --bs-card-cap-bg: none;
+    --bs-border-color-translucent: none;
+  }
+  .flip-foot{
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px;
+  }
+  #fb-tit{
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+  }
+  #fb-para{
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .fb-foot{
+    color: #FFFEFE;
+    font-family: League Spartan;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .flip{
+    color: #424242;
+    font-family: League Spartan;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .panel{
+    color: #4F4F4F;
+    font-family: League Spartan;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 130.769% */
+    letter-spacing: 0.26px;
+  }
+  #tog-one{
+    border: 1.5px solid #175B8C;
+  }
+  /* contact */
+  #contact-bg{
+    background-image: url(img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-f-t{
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .contact-f-b{
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .c-in{
+    fill: none;
+    border-radius: 0px;
+    background: transparent;
+    border: none;
+    color: #444444;
+    border-bottom: 1px solid #444444;
+    font-size: 18px;
+}
+.form-control:focus, .form-control:active {
+  background: transparent;
+}
+#contact-b{
+  background-color: #175B8C;
+  color: #FFF;
+}
+/* footer */
+#foot-bg{
+  background-image: url(img/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foot-service{
+  color: #FFF;
+  font-family: League Spartan;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  }
+  .vr{
+    opacity: 0.75;
+  }
